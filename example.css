@@ -1,374 +1,412 @@
 body {
-	background:#eee;
-	font-family:Arial,Helvetica,Liberation Sans,sans-serif;
-	font-size:14px;
-	color:#333;
-	line-height:1.5em
+	background: #eee;
+	font-family: Arial, Helvetica, Liberation Sans, sans-serif;
+	font-size: 14px;
+	color: #333;
+	line-height: 1.5em
 }
 
 #page {
-	display:block;
-	width:984px;
-	margin:0 auto
+	display: block;
+	width: 984px;
+	margin: 0 auto
 }
 
 #primary {
-	float:left;
-	width:100%;
-	margin:0 -180px 0 0
+	float: left;
+	width: 100%;
+	margin: 0 -180px 0 0
 }
 
-.page #content,.post,.archive .page-header {
-	background:#fff;
-	border:1px solid #d2d2d2;
-	border-radius:5px;
-	margin:0 195px 0 0;
-	padding:0 20px
+.page #content,
+.post,
+.archive .page-header {
+	background: #fff;
+	border: 1px solid #d2d2d2;
+	border-radius: 5px;
+	margin: 0 195px 0 0;
+	padding: 0 20px
 }
 
-.post,.archive .page-header {
-	margin-bottom:1em;
-	padding-bottom:1em
+.post,
+.archive .page-header {
+	margin-bottom: 1em;
+	padding-bottom: 1em
 }
 
 #main .widget-area {
-	float:right;
-	overflow:hidden;
-	width:175px
+	float: right;
+	overflow: hidden;
+	width: 175px
 }
 
 #colophon {
-	clear:both;
-	display:block;
-	width:100%;
-	text-align:center;
-	padding:1em 0 0
+	clear: both;
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 1em 0 0
 }
 
-h1,h2,h3,h4 {
-	color:#444
+h1,
+h2,
+h3,
+h4 {
+	color: #444
 }
 
 a {
-	color:#115bbf
+	color: #115bbf
 }
 
 a:hover {
-	text-shadow:2px 2px 2px #bbcde7
+	text-shadow: 2px 2px 2px #bbcde7
 }
 
 .alignleft {
-	display:inline;
-	float:left
+	display: inline;
+	float: left
 }
 
 .alignright {
-	display:inline;
-	float:right
+	display: inline;
+	float: right
 }
 
 .aligncenter {
-	clear:both;
-	display:block;
-	margin-left:auto;
-	margin-right:auto
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
 }
 
 #site-title {
-	font-size:32px;
-	text-shadow:2px 2px 2px #aaa;
-	margin:.67em 0
+	font-size: 32px;
+	text-shadow: 2px 2px 2px #aaa;
+	margin: .67em 0
 }
 
 #site-description {
-	font-size:18px;
-	text-shadow:2px 2px 2px #bbb
+	font-size: 18px;
+	text-shadow: 2px 2px 2px #bbb
 }
 
-.entry-title,.page-title {
-	font-size:18px
+.entry-title,
+.page-title {
+	font-size: 18px
 }
 
 .entry-title a {
-	text-decoration:none
+	text-decoration: none
 }
 
 #access {
-	background-color:#333;
-	background-image:0;
-	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#777777',endColorstr='#333333')";
-	display:block;
-	float:right;
-	margin-top:2em;
-	border-radius:5px;
-	padding:5px 0
+	background-color: #333;
+	background-image: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#777777',endColorstr='#333333')";
+	display: block;
+	float: right;
+	margin-top: 2em;
+	border-radius: 5px;
+	padding: 5px 0
 }
 
 #access ul {
-	list-style:none;
-	padding-left:0;
-	margin:0
+	list-style: none;
+	padding-left: 0;
+	margin: 0
 }
 
 #access li {
-	float:left;
-	position:relative;
-	border-left:1px solid #d2d2d2
+	float: left;
+	position: relative;
+	border-left: 1px solid #d2d2d2
 }
 
 #access a {
-	display:block;
-	text-decoration:none;
-	color:#fff;
-	line-height:2em;
-	padding:0 1em
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	line-height: 2em;
+	padding: 0 1em
 }
 
 #access li:hover>a {
-	text-shadow:0 0 2px #eee
+	text-shadow: 0 0 2px #eee
 }
 
 #content nav {
-	display:block;
-	overflow:hidden
+	display: block;
+	overflow: hidden
 }
 
 #content nav .nav-previous {
-	float:left;
-	width:50%
+	float: left;
+	width: 50%
 }
 
 #content nav .nav-next {
-	float:right;
-	text-align:right;
-	width:50%
+	float: right;
+	text-align: right;
+	width: 50%
 }
 
 #nav-below {
-	margin:1em 0 0
+	margin: 1em 0 0
 }
 
 .page-link {
-	clear:both;
-	margin:0 0 1em
+	clear: both;
+	margin: 0 0 1em
 }
 
-.post .notice,.error404 #searchform {
-	background:#eee;
-	display:block;
-	padding:1em
+.post .notice,
+.error404 #searchform {
+	background: #eee;
+	display: block;
+	padding: 1em
 }
 
 .image-attachment nav {
-	float:right;
-	margin:0 0 1em
+	float: right;
+	margin: 0 0 1em
 }
 
 .image-attachment .entry-content {
-	clear:both
+	clear: both
 }
 
 .image-attachment .entry-content .entry-attachment {
-	background:#eee;
-	text-align:center;
-	margin:0 0 1em;
-	padding:1em
+	background: #eee;
+	text-align: center;
+	margin: 0 0 1em;
+	padding: 1em
 }
 
 .image-attachment .entry-content .attachment {
-	display:block;
-	text-align:center;
-	margin:0 auto
+	display: block;
+	text-align: center;
+	margin: 0 auto
 }
 
 p img {
-	margin-bottom:.5em
+	margin-bottom: .5em
 }
 
-img.size-auto,img.size-full,img.size-large,img.size-medium,.attachment img,.widget-area img,.wp-caption {
-	max-width:100%;
-	height:auto
+img.size-auto,
+img.size-full,
+img.size-large,
+img.size-medium,
+.attachment img,
+.widget-area img,
+.wp-caption {
+	max-width: 100%;
+	height: auto
 }
 
 img.alignleft {
-	margin-right:1em
+	margin-right: 1em
 }
 
 img.alignright {
-	margin-left:1em
+	margin-left: 1em
 }
 
 .wp-caption {
-	text-align:center;
-	padding:.5em
+	text-align: center;
+	padding: .5em
 }
 
 .wp-caption img {
-	margin:.25em
+	margin: .25em
 }
 
 .wp-caption .wp-caption-text {
-	margin:.5em
+	margin: .5em
 }
 
 #searchform input#s {
-	width:60%
+	width: 60%
 }
 
-input[type=text],input#s {
-	width:60%;
-	margin:0 1em 0 0
+input[type=text],
+input#s {
+	width: 60%;
+	margin: 0 1em 0 0
 }
 
 textarea {
-	width:80%
+	width: 80%
 }
 
 .required {
-	color:#c03
+	color: #c03
 }
 
-#comments,.blognavi {
-	width:750px;
-	padding-left:25px
+#comments,
+.blognavi {
+	width: 750px;
+	padding-left: 25px
 }
 
 .widget-area .widget_search {
-	overflow:hidden
+	overflow: hidden
 }
 
 .widget-title {
-	font-size:16px;
-	margin-bottom:1em
+	font-size: 16px;
+	margin-bottom: 1em
 }
 
 footer {
-	font-size:12px
+	font-size: 12px
 }
 
 table {
-	border-spacing:0
+	border-spacing: 0
 }
 
 .divider {
-	float:left;
-	width:461px
+	float: left;
+	width: 461px
 }
 
 .divider h2 {
-	font-size:16px;
-	text-align:center
+	font-size: 16px;
+	text-align: center
 }
 
 .divider table {
-	font-family:Verdana,Geneva,sans-serif;
-	font-size:11px;
-	line-height:1.5em;
-	color:#000
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	line-height: 1.5em;
+	color: #000
 }
 
 .fancy {
-	border:solid #d2d2d2 1px;
-	border-radius:5px;
-	box-shadow:0 1px 1px #d2d2d2
+	border: solid #d2d2d2 1px;
+	border-radius: 5px;
+	box-shadow: 0 1px 1px #d2d2d2
 }
 
 .fancy tr:hover {
-	background:#fffcd1
+	background: #fffcd1
 }
 
-.fancy td,.fancy th {
-	border-left:1px solid #ccc;
-	border-top:1px solid #ccc;
-	text-align:left
+.fancy td,
+.fancy th {
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	text-align: left
 }
 
 .fancy td {
-	padding:3px 5px
+	padding: 3px 5px
 }
 
 .fancy th {
-	padding-top:5px;
-	padding-bottom:3px
+	padding-top: 5px;
+	padding-bottom: 3px
 }
 
 #auto th {
-	background-color:#dce9f9;
-	background-image:linear-gradient(#ebf3fc,#dce9f9);
-	box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
-	border-top:none;
-	text-shadow:0 1px 0 rgba(255,255,255,.5)
+	background-color: #dce9f9;
+	background-image: linear-gradient(#ebf3fc, #dce9f9);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .8) inset;
+	border-top: none;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .5)
 }
 
 #manual th {
-	background-color:#dcf9ee;
-	background-image:linear-gradient(#ebfcf1,#dcf9ee);
-	box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
-	border-top:none;
-	text-shadow:0 1px 0 rgba(255,255,255,.5)
+	background-color: #dcf9ee;
+	background-image: linear-gradient(#ebfcf1, #dcf9ee);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .8) inset;
+	border-top: none;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .5)
 }
 
-.fancy td:first-child,.fancy th:first-child {
-	border-left:none
+.fancy td:first-child,
+.fancy th:first-child {
+	border-left: none
 }
 
 .fancy th:first-child {
-	border-radius:5px 0 0 0
+	border-radius: 5px 0 0 0
 }
 
 .fancy th:last-child {
-	border-radius:0 5px 0 0
+	border-radius: 0 5px 0 0
 }
 
 .fancy th:only-child {
-	border-radius:5px 5px 0 0
+	border-radius: 5px 5px 0 0
 }
 
 .fancy tr:last-child td:first-child {
-	border-radius:0 0 0 5px
+	border-radius: 0 0 0 5px
 }
 
 .fancy tr:last-child td:last-child {
-	border-radius:0 0 5px 0
+	border-radius: 0 0 5px 0
 }
 
-#content ul li,#content ol li {
-	margin-bottom:1em
+#content ul li,
+#content ol li {
+	margin-bottom: 1em
 }
 
 .textwidget {
-	text-align:center
+	text-align: center
 }
 
-#text-2,#text-3 {
-	margin-bottom:3em
+#text-2,
+#text-3 {
+	margin-bottom: 3em
 }
 
 #text-4 .textwidget {
-	text-align:left
+	text-align: left
 }
 
-.full-width #content,.image-attachment #content,.error404 #content,.wp-smiley {
-	margin:0
+.full-width #content,
+.image-attachment #content,
+.error404 #content,
+.wp-smiley {
+	margin: 0
 }
 
-#logo,.image-attachment div.entry-meta,.widget-area .widget_search input {
-	float:left
+#logo,
+.image-attachment div.entry-meta,
+.widget-area .widget_search input {
+	float: left
 }
 
-#access li:first-child,a img {
-	border:none
+#access li:first-child,
+a img {
+	border: none
 }
 
-.entry-meta,.page .edit-link {
-	clear:both;
-	display:block
+.entry-meta,
+.page .edit-link {
+	clear: both;
+	display: block
 }
 
-.single-author .entry-meta .byline,#content #nav-above,#searchform label {
-	display:none
+.single-author .entry-meta .byline,
+#content #nav-above,
+#searchform label {
+	display: none
 }
 
-.paged #content #nav-above,.single #content #nav-above,.widget,article,aside,footer,header,nav,section {
-	display:block
+.paged #content #nav-above,
+.single #content #nav-above,
+.widget,
+article,
+aside,
+footer,
+header,
+nav,
+section {
+	display: block
 }
+
